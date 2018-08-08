@@ -1,0 +1,18 @@
+{
+  "files": {
+    "eh_dobro.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# \u00c9 dobro\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nnumero1 = int(raw_input())\nnumero2 = int(raw_input())\n\nif numero2 == (numero1 * 2):\n\tprint \"SIM\"\nelif numero1 == (numero2 * 2):\n\tprint \"SIM\"\nelse:\n\tprint \"NAO\"\n",
+      "name": "eh_dobro.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 2,\n      \"lloc\": 6,\n      \"vhalstead\": 49.83,\n      \"header\": 9\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "6ea0a24c115fffcaf58637317c1b724b",
+  "iid": 4836488567062528,
+  "activity_revision": "1.0.3"
+}

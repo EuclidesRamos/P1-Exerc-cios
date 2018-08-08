@@ -1,0 +1,9 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "4\n6\n7\n15\n8\n",
+      "output": "soma: 14\nmédia: 7.0\n1 número(s) abaixo da média\n"
+    }
+  ]
+}

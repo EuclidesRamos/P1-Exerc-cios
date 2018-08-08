@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "678.0\n22\n4.20\n",
+      "output": "O salário base é R$ 678.00\nO custo mensal para o empregador é de R$ 865.32\nO salário líquido que o trabalhador irá receber no mês é R$ 583.08\n"
+    },
+    {
+      "category": "public",
+      "input": "1500.0\n1\n1.5\n",
+      "output": "O salário base é R$ 1500.00\nO custo mensal para o empregador é de R$ 1800.00\nO salário líquido que o trabalhador irá receber no mês é R$ 1365.00\n"
+    }
+  ]
+}

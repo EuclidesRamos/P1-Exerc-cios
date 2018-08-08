@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "1\n",
+      "output": "Deverá receber em dezembro R$ 25000.00.\n"
+    },
+    {
+      "category": "public",
+      "input": "5\n0\n",
+      "output": "Valor da gratificação R$ 200.00.\nDeverá receber em dezembro R$ 3000.00.\n"
+    },
+    {
+      "category": "public",
+      "input": "4\n10\n",
+      "output": "Valor da gratificação R$ 225.00.\nDeverá receber em dezembro R$ 5225.00.\n"
+    }
+  ]
+}

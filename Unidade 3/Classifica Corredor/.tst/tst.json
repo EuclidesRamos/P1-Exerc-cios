@@ -1,0 +1,18 @@
+{
+  "files": {
+    "corredor.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Classifica Corredor\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nkm_percorrido = float(raw_input())\ntempo = float(raw_input())\n\nkm_por_hora = km_percorrido / tempo\n\nif km_por_hora < 10.0:\n\tprint \"Velocidade: %.1fkm/h. Corredor amador.\" % km_por_hora\nelif km_por_hora > 15.0:\n\tprint \"Velocidade: %.1fkm/h. Corredor profissional.\" % km_por_hora\nelse:\n\tprint \"Velocidade: %.1fkm/h. Corredor aspirante.\" % km_por_hora\n",
+      "name": "corredor.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 10,\n      \"vhalstead\": 41.51,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "fdaff59ec601311fdbf3808284d05f43",
+  "iid": 6080287767265280,
+  "activity_revision": "1.0.6"
+}

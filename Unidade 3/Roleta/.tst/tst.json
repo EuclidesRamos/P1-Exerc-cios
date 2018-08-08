@@ -1,0 +1,18 @@
+{
+  "files": {
+    "roleta.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Roleta\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nnumero_aposta = int(raw_input())\ncor_aposta = raw_input()\nnumero_sorteado = int(raw_input())\ncor_sorteada = raw_input()\n\nif numero_aposta == numero_sorteado and cor_aposta == cor_sorteada:\n\tpontuacao = 150\nelif numero_aposta == numero_sorteado:\n\tpontuacao = 100\nelif cor_aposta == cor_sorteada:\n\tpontuacao = 50\n\tif numero_sorteado > numero_aposta:\n\t\tpontuacao = pontuacao + 30\n\telse:\n\t\tpontuacao = pontuacao + 50\nelse:\n\tpontuacao = 0\n\nprint pontuacao\n",
+      "name": "roleta.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 17,\n      \"vhalstead\": 69.76,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "3b65891d2e5b1e0c509a02143d63eaed",
+  "iid": 6038385261019136,
+  "activity_revision": "1.0.1"
+}

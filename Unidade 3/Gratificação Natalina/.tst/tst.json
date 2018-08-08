@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 0,\n      \"lloc\": 25,\n      \"vhalstead\": 129.66,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "gratificacao.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Gratifica\u00e7\u00e3o Natalina\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\ncodigo = int(raw_input())\n\nif codigo == 1:\n\tprint \"Dever\u00e1 receber em dezembro R$ 25000.00.\"\nelif codigo == 2:\n\tprint \"Dever\u00e1 receber em dezembro R$ 15000.00.\"\nelif codigo == 3:\n\tsalario = 8000.00\n\tfaltas = int(raw_input())\n\tif faltas == 0:\n\t\tgratificacao = 500.00\n\telse:\n\t\tgratificacao = (235 - faltas) * 2.00\n\tprint \"Valor da gratifica\u00e7\u00e3o R$ %.2f.\" % gratificacao\n\tprint \"Dever\u00e1 receber em dezembro R$ %.2f.\" % (salario + gratificacao)\nelif codigo == 4:\n\tsalario = 5000.00\n\tfaltas = int(raw_input())\n\tif faltas == 0:\n\t\tgratificacao = 300.00\n\telse:\n\t\tgratificacao = (235 - faltas) * 1.00\n\tprint \"Valor da gratifica\u00e7\u00e3o R$ %.2f.\" % gratificacao\n\tprint \"Dever\u00e1 receber em dezembro R$ %.2f.\" % (salario + gratificacao)\nelse:\n\tsalario = 2800.00\n\tfaltas = int(raw_input())\n\tif faltas == 0:\n\t\tgratificacao = 200.00\n\telse:\n\t\tgratificacao = (235 - faltas) * 0.70\n\tprint \"Valor da gratifica\u00e7\u00e3o R$ %.2f.\" % gratificacao\n\tprint \"Dever\u00e1 receber em dezembro R$ %.2f.\" % (salario + gratificacao)\n",
+      "name": "gratificacao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "79b2afdc3e93b3e42d4fbc2d0a154716",
+  "iid": 5876334802763776,
+  "activity_revision": "1.0.2"
+}

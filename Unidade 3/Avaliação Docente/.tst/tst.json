@@ -1,0 +1,18 @@
+{
+  "files": {
+    "ada.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Avalia\u00e7\u00e3o Docente\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nquantidade_semestres = int(raw_input())\nensino = int(raw_input())\nintelectual = int(raw_input())\norientacao = int(raw_input())\nadministrativa = int(raw_input())\n\nmedia_pontos = (ensino + intelectual + orientacao + administrativa) / 4\nensino_minima = bool(ensino >= 320)\nintelectual_minima = bool(intelectual >= 100)\norientacao_minima = bool(orientacao >= 20)\n\nif quantidade_semestres >= 4:\n\tif ensino_minima and intelectual_minima and orientacao_minima is True:\n\t\tif media_pontos >= 140:\n\t\t\tprint \"Promo\u00e7\u00e3o deferida. Parab\u00e9ns!\"\n\t\telse:\n\t\t\tprint \"Promo\u00e7\u00e3o indeferida. M\u00e9dia insuficiente.\"\n\telse:\n\t\tprint \"Promo\u00e7\u00e3o indeferida. Pontua\u00e7\u00e3o m\u00ednima n\u00e3o alcan\u00e7ada.\"\nelse:\n\tprint \"Promo\u00e7\u00e3o indeferida. N\u00famero de semestres insuficiente.\"\n",
+      "name": "ada.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 14,\n      \"vhalstead\": 136.16,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "436cc1e78db890bc2f100a495b62f78f",
+  "iid": 4543798357000192,
+  "activity_revision": "1.1.1"
+}

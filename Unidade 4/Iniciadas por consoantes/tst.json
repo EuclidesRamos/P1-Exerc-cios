@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "7\nquantas\ndestas\npalavras\nsao\niniciadas\npor\nconsoantes\n",
+      "output": "total de palavras: 7\niniciadas por consoantes: 6 (85.71%)\n"
+    },
+    {
+      "category": "public",
+      "input": "4\nAlvaro\niniciadas\npor\nonsoantes\n",
+      "output": "total de palavras: 4\niniciadas por consoantes: 1 (25.00%)\n"
+    }
+  ]
+}

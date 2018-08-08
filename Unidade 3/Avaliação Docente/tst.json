@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "3\n340\n120\n40 \n500\n",
+      "output": "Promoção indeferida. Número de semestres insuficiente.\n"
+    },
+    {
+      "category": "public",
+      "input": "4\n300\n120\n40\n500\n",
+      "output": "Promoção indeferida. Pontuação mínima não alcançada.\n"
+    },
+    {
+      "category": "public",
+      "input": "4\n320\n110\n20\n10\n",
+      "output": "Promoção indeferida. Média insuficiente.\n"
+    },
+    {
+      "category": "public",
+      "input": "4\n330\n150\n40\n350\n",
+      "output": "Promoção deferida. Parabéns!\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "eq2grau.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Corrigindo Equa\u00e7\u00f5es\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\na = int(raw_input())\nb = int(raw_input())\nc = int(raw_input())\n\nimport math\ndelta = b ** 2 - 4 * a * c\n\nif delta < 0:\n\tprint \"sem raizes reais\"\nelif delta == 0:\n\tx = (- b + math.sqrt(delta)) / (2.0 * a)\n\tprint \"x = %.2f\" % x\nelse:\n\tx1 = (- b + math.sqrt(delta)) / (2.0 * a)\n\tx2 = (- b - math.sqrt(delta)) / (2.0 * a)\n\tprint \"x1 = %.2f\" % x1\n\tprint \"x2 = %.2f\" % x2\n",
+      "name": "eq2grau.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 15,\n      \"vhalstead\": 245.0,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "45ef1af79204d36587a7d7324b42d605",
+  "iid": 5060867615883264,
+  "activity_revision": "1.1.2"
+}

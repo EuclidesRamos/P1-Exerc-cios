@@ -1,0 +1,18 @@
+{
+  "files": {
+    "custo.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Custo Empregado\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nsalario_base = float(raw_input())\ndias_trabalhados = int(raw_input())\ncusto_transporte = float(raw_input())\n\ncusto_transporte_total = custo_transporte * dias_trabalhados\ncusto_maximo_transporte = salario_base * 0.06\nfgts_empregador = salario_base * 0.08\ninss_empregador = salario_base * 0.12\n\nif salario_base <= 1317.07:\n\tinss_empregado = salario_base * 0.08\nelif salario_base > 2195.12:\n\tinss_empregado = salario_base * 0.11\nelse:\n\tinss_empregado = salario_base * 0.09 \n\nif custo_transporte_total > custo_maximo_transporte:\n\tgasto_empregado = custo_maximo_transporte\n\tgasto_empregador = custo_transporte_total - custo_maximo_transporte\nelse:\n\tgasto_empregado = 0\n\tgasto_empregador = 0\n\ncusto_empregador = gasto_empregador + fgts_empregador + \\\n\tinss_empregador + salario_base\nsalario_liquido = salario_base - inss_empregado - gasto_empregado\n\nprint \"O sal\u00e1rio base \u00e9 R$ %.2f\" % salario_base\nprint \"O custo mensal para o empregador \u00e9 de R$ %.2f\" % custo_empregador\nprint \"O sal\u00e1rio l\u00edquido que o trabalhador ir\u00e1 receber no m\u00eas \u00e9 R$ \\\n%.2f\" % salario_liquido\n",
+      "name": "custo.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 1,\n      \"lloc\": 20,\n      \"vhalstead\": 351.03,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d46c6ad90c97499af4e36eeae5f49f21",
+  "iid": 5019412297940992,
+  "activity_revision": "1.0.2"
+}

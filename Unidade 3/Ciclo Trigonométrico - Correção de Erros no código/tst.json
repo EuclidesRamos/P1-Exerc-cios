@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "30\n",
+      "type": "io",
+      "name": "quad_1",
+      "output": "Quadrante 1\n"
+    }
+  ]
+}

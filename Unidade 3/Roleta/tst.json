@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "1\npreto\n1\npreto\n",
+      "type": "io",
+      "name": "exemplo",
+      "output": "150\n"
+    },
+    {
+      "category": "public",
+      "input": "1\npreto\n10\npreto\n",
+      "type": "io",
+      "name": "outro",
+      "output": "80\n"
+    }
+  ]
+}

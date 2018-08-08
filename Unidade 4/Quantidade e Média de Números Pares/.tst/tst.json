@@ -1,0 +1,18 @@
+{
+  "files": {
+    "pares.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Quantidade e M\u00e9dia de N\u00fameros Pares\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nnumeros_lidos = int(raw_input())\nsoma = 0\ncontador = 0.0\nnumeros = []\nnumeros_abaixo_da_media = 0\n\nfor valor in range(0, numeros_lidos):\n\tnumero = int(raw_input())\n\tnumeros.append(numero)\n\tif numero % 2 == 0:\n\t\tsoma = soma + numero\n\t\tcontador = contador + 1\n\nmedia = soma / contador\n\nfor valor in numeros:\n\tif valor < media:\n\t\tnumeros_abaixo_da_media = numeros_abaixo_da_media + 1\n\t\t\nprint \"soma: %d\" % soma\nprint \"m\u00e9dia: %.1f\" % media\nprint \"%d n\u00famero(s) abaixo da m\u00e9dia\" % numeros_abaixo_da_media\n",
+      "name": "pares.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 18,\n      \"vhalstead\": 125.1,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "3e5aeccfda9be30171e034e8c4ba2de3",
+  "iid": 5793770498949120,
+  "activity_revision": "1.1.4"
+}

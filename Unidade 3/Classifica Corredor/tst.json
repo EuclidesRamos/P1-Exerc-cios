@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "6\n0.5\n",
+      "output": "Velocidade: 12.0km/h. Corredor aspirante.\n"
+    },
+    {
+      "category": "public",
+      "input": "6.0\n1.0\n",
+      "output": "Velocidade: 6.0km/h. Corredor amador.\n"
+    }
+  ]
+}

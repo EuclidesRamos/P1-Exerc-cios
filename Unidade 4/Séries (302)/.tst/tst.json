@@ -1,0 +1,18 @@
+{
+  "files": {
+    "series.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# S\u00e9ries (302)\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nfor valor in range(302,-11,-3):\n\tprint valor\n",
+      "name": "series.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 2,\n      \"pep8\": 0,\n      \"lloc\": 3,\n      \"vhalstead\": 0.0,\n      \"header\": 0\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "96e1f88cc2830433e3ae21a0e1d99478",
+  "iid": 5868925447307264,
+  "activity_revision": "1.1.1"
+}

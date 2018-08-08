@@ -1,0 +1,18 @@
+{
+  "files": {
+    "mais_velho.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Mais velho entre duas pessoas\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nnome1 = raw_input()\ndia1 = int(raw_input())\nmes1 = int(raw_input())\nano1 = int(raw_input())\nnome2 = raw_input()\ndia2 = int(raw_input())\nmes2 = int(raw_input())\nano2 = int(raw_input())\n\nif ano1 < ano2:\n\tprint nome1\nelif ano2 < ano1:\n\tprint nome2\nelse:\n\tif mes1 < mes2:\n\t\tprint nome1\n\telif mes2 < mes1:\n\t\tprint nome2\n\telse:\n\t\tif dia1 < dia2:\n\t\t\tprint nome1\n\t\telif dia2 < dia1:\n\t\t\tprint nome2\n\t\telse:\n\t\t\tprint \"nenhuma\"\n",
+      "name": "mais_velho.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 0,\n      \"lloc\": 25,\n      \"vhalstead\": 54.0,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "80eff7f44c65dcf7c14cb589348e2082",
+  "iid": 6355175044284416,
+  "activity_revision": "1.0.2"
+}

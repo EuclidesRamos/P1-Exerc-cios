@@ -1,0 +1,18 @@
+{
+  "files": {
+    "aluno.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Ciclo Trigonom\u00e9trico - Corre\u00e7\u00e3o de Erros no c\u00f3digo\n# Euclides Ramos, 2017.2 / UFCG - Programa\u00e7\u00e3o 1\n\na = float(raw_input())\t\n\nif a <= 360:\n\tif a >= 1 and a <= 89:\n\t\tprint 'Quadrante 1' \n\telif a > 90 and a < 180:\n\t\tprint 'Quadrante 2'\n\telif a > 180 and a < 270:\n\t\tprint 'Quadrante 3'\n\telif a > 270 and a < 360:\n\t\tprint 'Quadrante 4'\n\telse:\n\t\tprint 'Sobre eixos'\nelse: \n\tnum2 = a % 360\n\tif num2 >= 1 and num2 <= 89:\n\t\tprint 'Quadrante 1'\n\telif num2 > 90 and num2 < 180:\n\t\tprint 'Quadrante 2'\n\telif num2 > 180 and num2 < 270:\n\t\tprint 'Quadrante 3'\n\telif num2 > 270 and num2 < 360:\n\t\tprint 'Quadrante 4'\n\telse:\n\t\tprint 'Sobre eixos'\n",
+      "name": "aluno.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 9,\n      \"pep8\": 0,\n      \"lloc\": 12,\n      \"vhalstead\": 165.67,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "2f28152e5b36a530b23a71a04a6cd61b",
+  "iid": 4710590727585792,
+  "activity_revision": "1.0.20"
+}

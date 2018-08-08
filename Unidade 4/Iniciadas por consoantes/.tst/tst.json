@@ -1,0 +1,18 @@
+{
+  "files": {
+    "consoantes.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# Iniciadas por consoantes\n# (C) 2017.2, Euclides Ramos / UFCG - Programa\u00e7\u00e3o 1\n\nnumero_de_palavras = int(raw_input())\niniciais = []\nconsoantes = 0\nfor quantidade in range(0, numero_de_palavras):\n\tpalavra = raw_input().lower()\n\tiniciais.append(palavra[0])\n\nfor letra in iniciais:\n\tif \"a\" != letra and \"e\" != letra and \"i\" != letra and \"o\" != letra and \"u\" != letra:\n\t\tconsoantes = consoantes + 1\n\nporcentagem = consoantes * 100.0 / numero_de_palavras\nprint \"total de palavras: %d\" % numero_de_palavras\nprint \"iniciadas por consoantes: %d (%.2f%%)\" % (consoantes, porcentagem)\n",
+      "name": "consoantes.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 70.32,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "46754af3956015a53a1a636cb66c2e7c",
+  "iid": 6563606342664192,
+  "activity_revision": "1.1.3"
+}

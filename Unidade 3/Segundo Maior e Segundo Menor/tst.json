@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "1\n2\n3\n4\n",
+      "type": "io",
+      "name": "test_exemplo",
+      "output": "Considerando os números 1, 2, 3 e 4\nO segundo menor número é 2\nO segundo maior número é 3\n"
+    }
+  ]
+}
