@@ -1,6 +1,7 @@
 # coding: utf-8
 # String ABBA
 # (C), 2017.2 - Euclides Ramos, UFCG - Programação 1
+#top
 
 a = raw_input()
 b = raw_input()
